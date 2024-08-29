@@ -4,12 +4,12 @@ import 'package:getwidget/getwidget.dart';
 
 class WidgetButton extends StatelessWidget {
   const WidgetButton({
-    Key? key,
+    super.key,
     required this.text,
     required this.onPressed,
     this.fullWidthButton,
     this.type,
-  }) : super(key: key);
+  });
 
   final String text;
   final Function() onPressed;

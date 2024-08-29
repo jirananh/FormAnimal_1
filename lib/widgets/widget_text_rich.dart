@@ -4,10 +4,10 @@ import 'package:formanimal/utility/app_constant.dart';
 
 class WidgetTextRich extends StatelessWidget {
   const WidgetTextRich({
-    Key? key,
+    super.key,
     required this.head,
     required this.value,
-  }) : super(key: key);
+  });
 
   final String head;
   final String value;

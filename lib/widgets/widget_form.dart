@@ -5,12 +5,12 @@ import 'package:formanimal/utility/app_constant.dart';
 
 class WidgetForm extends StatelessWidget {
   const WidgetForm({
-    Key? key,
+    super.key,
     this.labelText,
     this.validator,
     this.controller,
     this.keyboardType,
-  }) : super(key: key);
+  });
 
   final String? labelText;
   final String? Function(String?)? validator;

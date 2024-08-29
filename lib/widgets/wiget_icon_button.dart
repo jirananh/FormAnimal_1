@@ -4,12 +4,12 @@ import 'package:getwidget/getwidget.dart';
 
 class WidgetIconButton extends StatelessWidget {
   const WidgetIconButton({
-    Key? key,
+    super.key,
     required this.icon,
     required this.onPressed,
     this.type,
     this.color,
-  }) : super(key: key);
+  });
 
   final IconData icon;
   final Function() onPressed;
