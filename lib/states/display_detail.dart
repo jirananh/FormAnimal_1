@@ -220,7 +220,7 @@ class _DisplayDetailState extends State<DisplayDetail> {
             },
           );
         } else {
-          return SizedBox();
+          return const SizedBox();
         }
       },
     );
